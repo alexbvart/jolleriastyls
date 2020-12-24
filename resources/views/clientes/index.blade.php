@@ -22,6 +22,7 @@
         </button>
       </div>
       @endif
+      <div class="table-responsive">
       <table class="table table table-striped">
         <thead class="thead-dark">
           <tr>
@@ -36,7 +37,7 @@
         <tbody>
           @foreach ($clientes as $item)
           <tr>
-            <td>{{$item->cliente_id}}</td>
+            <td scope="row" >{{$item->cliente_id}}</td>
             <td>{{$item->ruc_dni}}</td>
             <td>{{$item->nombres}}</td>
             <td>{{$item->email}}</td>
@@ -51,6 +52,7 @@
           @endforeach
         </tbody>
       </table>
+      </div>
       {{$clientes->links()}}
     </p>
   </div>

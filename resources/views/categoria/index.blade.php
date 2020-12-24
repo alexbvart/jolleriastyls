@@ -32,29 +32,31 @@
                         </button>
                     </div>
                 @endif
-                <table class="table table table-striped">
-                    <thead class="thead-dark ">
-                        <tr>
-                            <th scope="col">Codigo</th>
-                            <th scope="col">Descripcion</th>
-                            <th scope="col">Opciones</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach ($categoria as $itemcategoria)
-                            <tr>
-                                <td>{{ $itemcategoria->categoria_id }}</td>
-                                <td>{{ $itemcategoria->descripcion }}</td>
-                                <td>
-                                    <a href="{{ route('categoria.edit', $itemcategoria->categoria_id) }}"
-                                        class="btn btn-sm btn-info"><i class="fas fa-edit"></i>Editar</a>
-                                    <a href="{{ route('categoria.confirmar', $itemcategoria->categoria_id) }}"
-                                        class="btn btn-sm btn-danger"><i class="fas fa-trash"></i>Quitar</a>
-                                </td>
-                            </tr>
-                        @endforeach
-                    </tbody>
-                </table>
+                <div class="table-responsive">
+                  <table class="table table table-striped">
+                      <thead class="thead-dark ">
+                          <tr>
+                              <th scope="col">Codigo</th>
+                              <th scope="col">Descripcion</th>
+                              <th scope="col">Opciones</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          @foreach ($categoria as $itemcategoria)
+                              <tr>
+                                  <td>{{ $itemcategoria->categoria_id }}</td>
+                                  <td>{{ $itemcategoria->descripcion }}</td>
+                                  <td>
+                                      <a href="{{ route('categoria.edit', $itemcategoria->categoria_id) }}"
+                                          class="btn btn-sm btn-info"><i class="fas fa-edit"></i>Editar</a>
+                                      <a href="{{ route('categoria.confirmar', $itemcategoria->categoria_id) }}"
+                                          class="btn btn-sm btn-danger"><i class="fas fa-trash"></i>Quitar</a>
+                                  </td>
+                              </tr>
+                          @endforeach
+                      </tbody>
+                  </table>
+                </div>
                 {{ $categoria->links() }}
                 </p>
             </div>

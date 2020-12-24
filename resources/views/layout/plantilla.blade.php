@@ -53,7 +53,7 @@
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
           <div class="image ">
             <img src="https://lh3.googleusercontent.com/fife/ABSRlIowRMuXEGsA0GKj6mE2qI4hxWp-sIzmhHvVShIWeK5zgEgCXEusxZG7hfO_DoCvWh1e7FSQERb9M8F5fHjliPm3Q6YXl3DTK7hxSFf8YkyS-7uXJxfhCxKVAJyITMBuX93LnbGVIhKx3Sn2At1RHto6zfmyL-dT8RPupIj_DfzaXZ9SGs6h8YDl3R1L8aAr6LV6p6Ac0J5HyOL2lBJ-4TY5fdp8OF0IyTRIKdFQEVPmyJcAZS-FU73pNVxybYyiHsB_lp12_VSFzcuODItQtJErk-jlTEWSlHkFrKrjBjh0IVVHZKwbJ1fPTRX9-n-l0clLnVM40odnHJyunX51Nu_16hTcO2LG0P4ZSKY0uU2e8hysyXsb1Us3a5vKGi5yg0PaqkqAEuWRnlg5oYOqMnxcnumrcpE6NDQXSH4lGC_B_jOKhZ8sse9kfeUkY78-2r_VC6B-aIfdhg7cZEivhSMt7FC19pB4oYyd_5NBnQAzXCqdU_3OqOOxeicsGivSumacGlNwnQkWCIu87Vj6FFJp1UvtareYc4dlRciOqMv0jbPzwvkApYGKOYY34bhnea1yRqMFdqmIgWvU5db9DTKuBLY1vY8gehnMaR1NqQdz1M7WX-WlXaYu6Al0KpLCVFKgTwtS3rpXnfVkO_imjmmJ7wMHk9lRMq3K9HiGW7twf5YluTA6MmMc9j1J4FjfV8GvJfSUBAWuWrwKA6Tqc_I3KcbbAfTtydjgp_m2=s83-c" 
-              class="img-circle elevation-2" alt="User Image">
+                  class="img-circle elevation-2" alt="User Image">
           </div>
           <div class="info">
             <a href="#" class="d-block">Nuri Tasilla</a>

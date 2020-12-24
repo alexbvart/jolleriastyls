@@ -23,37 +23,39 @@
                     </button>
                 </div>
                 @endif
-                <table class="table table-striped ">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col">Código</th>
-                            <th scope="col">Descripción</th>
-                            <th scope="col">Categoría</th>
-                            <th scope="col">Unidad</th>
-                            <th scope="col">Precio</th>
-                            <th scope="col">Stock</th>
-                            <th scope="col">Opciones</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach ($producto as $item)
-                        <tr>
-                            <td>{{$item->producto_id}}</td>
-                            <td>{{$item->descripcion}}</td>
-                            <td>{{$item->categoria->descripcion}}</td>
-                            <td>{{$item->unidad->descripcion}}</td>
-                            <td>{{$item->precio}}</td>
-                            <td>{{$item->cantidad}}</td>
-                            <td>
-                                <a href="{{route('productos.edit',$item->producto_id)}}" class="btn btn-sm btn-info"><i
-                                        class="fas fa-edit"></i>Editar</a>
-                                <a href="{{route('productos.confirmar',$item->producto_id)}}"
-                                    class="btn btn-sm btn-danger"><i class="fas fa-trash"></i>Quitar</a>
-                            </td>
-                        </tr>
-                        @endforeach
-                    </tbody>
-                </table>
+                <div class="table-responsive">
+                    <table class="table table-striped ">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Código</th>
+                                <th scope="col">Descripción</th>
+                                <th scope="col">Categoría</th>
+                                <th scope="col">Unidad</th>
+                                <th scope="col">Precio</th>
+                                <th scope="col">Stock</th>
+                                <th scope="col">Opciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach ($producto as $item)
+                            <tr>
+                                <td>{{$item->producto_id}}</td>
+                                <td>{{$item->descripcion}}</td>
+                                <td>{{$item->categoria->descripcion}}</td>
+                                <td>{{$item->unidad->descripcion}}</td>
+                                <td>{{$item->precio}}</td>
+                                <td>{{$item->cantidad}}</td>
+                                <td>
+                                    <a href="{{route('productos.edit',$item->producto_id)}}" class="btn btn-sm btn-info"><i
+                                            class="fas fa-edit"></i>Editar</a>
+                                    <a href="{{route('productos.confirmar',$item->producto_id)}}"
+                                        class="btn btn-sm btn-danger"><i class="fas fa-trash"></i>Quitar</a>
+                                </td>
+                            </tr>
+                            @endforeach
+                        </tbody>
+                    </table>
+                </div>
                 {{$producto->links()}}
             </p>
         </div>
