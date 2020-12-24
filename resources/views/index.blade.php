@@ -17,24 +17,25 @@
 <body class="login">
 
     <div class="logo">
-        <img src="{{asset('/img/visa.png')}}" alt="Sistema de Ventas & ABC">
-        <p>Sistema de Ventas Jolleriastyls</p>
-    </div>
-    <div class="content">
 
-        <form method="POST" action="{{ route ('login') }}">
+        <strong><p>Sistema de Ventas Jolleriastyls</p></strong>
+    </div>
+    <div class="content container py-4">
+
+        <form method="POST" action="{{ route('login') }}">
             @csrf
             @method('POST')
-            <h4 class="form-title">Inicio de Sesión</h4>
+            <h2 class="form-title">Inicio de Sesión</h2>
+
             <div class="form-group">
                 <label class="control-label">Nombre:</label>
                 <div class="input-icon">
                     <input class="form-control @error('name') is-invalid @enderror" type="text"
-                        placeholder="Ingrese su nombre de usuario" id="name" name="name" value="{{old('name')}}" />
+                        placeholder="Ingrese su nombre de usuario" id="name" name="name" value="{{ old('name') }}" />
                     @error('name')
-                    <span class="invalid-feedback" role="alert">
-                        <strong>{{$message}}</strong>
-                    </span>
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
                     @enderror
                 </div>
             </div>
@@ -43,27 +44,32 @@
                 <label class="control-label">Contraseña:</label>
                 <div class="input-icon">
                     <input class="form-control @error('password') is-invalid @enderror" type="password"
-                        placeholder="Ingrese contraseña" id="password" name="password" value="{{old('password')}}" />
+                        placeholder="Ingrese contraseña" id="password" name="password" value="{{ old('password') }}" />
                     @error('password')
-                    <span class="invalid-feedback" role="alert">
-                        <strong>{{$message}}</strong>
-                    </span>
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
                     @enderror
                 </div>
             </div>
 
             <hr />
             <div class="form-actions">
-                <button class="btn btn-success btn-block">
-                    Ingresar 
+                <button class="btn btn-success btn-block btn-lg">
+                    Ingresar
                 </button>
             </div>
             <hr />
         </form>
     </div>
-    <div class="copyright">
-        2020 &copy; Sistema de Ventas & ABC.
+    <div class="copyright mt-2">
+        2020 &copy; Sistema de Jolleria Styls.
     </div>
+
+
+
+
+
     <script src="/adminlte/plugins/jquery/jquery.min.js"></script>
     <script src="/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>

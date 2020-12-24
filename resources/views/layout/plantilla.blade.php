@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 3 | Blank Page</title>
+  <title>Jolleria Styls |</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,30 +29,34 @@
       <!-- Left navbar links -->
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+          <a class="nav-link" 
+              data-widget="pushmenu" 
+              href="#" 
+              role="button">
+              <i class="fas fa-bars"></i>
+          </a>
         </li>
       </ul>
     </nav>
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
-    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <aside class="main-sidebar sidebar-light-primary elevation-2">
       <!-- Brand Logo -->
-      <a href="../../index3.html" class="brand-link">
-        <img src="/adminlte/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
-          style="opacity: .8">
-        <span class="brand-text font-weight-light">AdminLTE 3</span>
+      <a href="#" class="brand-link d-flex  justify-content-center">
+        <strong class="brand-text font-weight-light">Jolleria Styls</strong>
       </a>
 
       <!-- Sidebar -->
       <div class="sidebar">
         <!-- Sidebar user (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-          <div class="image">
-            <img src="/adminlte/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <div class="image ">
+            <img src="https://lh3.googleusercontent.com/fife/ABSRlIowRMuXEGsA0GKj6mE2qI4hxWp-sIzmhHvVShIWeK5zgEgCXEusxZG7hfO_DoCvWh1e7FSQERb9M8F5fHjliPm3Q6YXl3DTK7hxSFf8YkyS-7uXJxfhCxKVAJyITMBuX93LnbGVIhKx3Sn2At1RHto6zfmyL-dT8RPupIj_DfzaXZ9SGs6h8YDl3R1L8aAr6LV6p6Ac0J5HyOL2lBJ-4TY5fdp8OF0IyTRIKdFQEVPmyJcAZS-FU73pNVxybYyiHsB_lp12_VSFzcuODItQtJErk-jlTEWSlHkFrKrjBjh0IVVHZKwbJ1fPTRX9-n-l0clLnVM40odnHJyunX51Nu_16hTcO2LG0P4ZSKY0uU2e8hysyXsb1Us3a5vKGi5yg0PaqkqAEuWRnlg5oYOqMnxcnumrcpE6NDQXSH4lGC_B_jOKhZ8sse9kfeUkY78-2r_VC6B-aIfdhg7cZEivhSMt7FC19pB4oYyd_5NBnQAzXCqdU_3OqOOxeicsGivSumacGlNwnQkWCIu87Vj6FFJp1UvtareYc4dlRciOqMv0jbPzwvkApYGKOYY34bhnea1yRqMFdqmIgWvU5db9DTKuBLY1vY8gehnMaR1NqQdz1M7WX-WlXaYu6Al0KpLCVFKgTwtS3rpXnfVkO_imjmmJ7wMHk9lRMq3K9HiGW7twf5YluTA6MmMc9j1J4FjfV8GvJfSUBAWuWrwKA6Tqc_I3KcbbAfTtydjgp_m2=s83-c" 
+              class="img-circle elevation-2" alt="User Image">
           </div>
           <div class="info">
-            <a href="#" class="d-block">Alexander Pierce</a>
+            <a href="#" class="d-block">Nuri Tasilla</a>
           </div>
         </div>
 
@@ -153,13 +157,7 @@
     </div>
     <!-- /.content-wrapper -->
 
-    <footer class="main-footer">
-      <div class="float-right d-none d-sm-block">
-        <b>Version</b> 3.0.5
-      </div>
-      <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
-      reserved.
-    </footer>
+
 
     <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
