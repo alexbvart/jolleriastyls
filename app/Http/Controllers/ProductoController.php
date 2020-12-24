@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Producto;
-use App\Categoria;
+use App\categoria;
 use App\Unidad;
 
 class ProductoController extends Controller
