@@ -101,7 +101,7 @@ class CabeceraVentaController extends Controller
                 $detalle->save();
 
                 /* Actualizar stock */
-                Producto::ActualizarStock($detalle->producto_id,$detalle->cantidad);
+                /* Producto::ActualizarStock($detalle->producto_id,$detalle->cantidad); */
                 $cont=$cont+1;
             }
             /* Actualizar el numero de documento en la tabla parametro */
