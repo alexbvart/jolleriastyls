@@ -5,6 +5,11 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use DB;
 
+use App\categoria;
+use App\Unidad;
+use App\DetalleVenta;
+
+
 class Producto extends Model
 {
     //
@@ -16,7 +21,7 @@ class Producto extends Model
 
     public function categoria()
     {
-        return $this->hasOne('App\Categoria','categoria_id', 'categoria_id');
+        return $this->hasOne('App\categoria','categoria_id', 'categoria_id');
     }
     public function unidad()
     {

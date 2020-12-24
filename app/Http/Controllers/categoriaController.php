@@ -12,7 +12,7 @@ class categoriaController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    const PAGINACION=5;
+    const PAGINACION=15;
     public function index(Request $request)
     {
         $buscarpor = $request->get('buscarpor');

@@ -24,6 +24,7 @@
 
         <form method="POST" action="{{ route ('login') }}">
             @csrf
+            @method('POST')
             <h4 class="form-title">Inicio de Sesión</h4>
             <div class="form-group">
                 <label class="control-label">Nombre:</label>
