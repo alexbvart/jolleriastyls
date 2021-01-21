@@ -89,15 +89,15 @@ i.big {
 }
 
 i.warning {
-  color: #d12610;
+  color: #fc3a20;
 }
 
 i.critical {
-  color: #37b7f3;
+  color: #41c3ff;
 }
 
 i.normal {
-  color: #52e136;
+  color: #83eb6e;
 }
 
 /* input with left aligned icons */
