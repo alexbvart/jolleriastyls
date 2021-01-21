@@ -18,17 +18,17 @@
 
     <div class="logo">
 
-        <strong><p>Sistema de Ventas Jolleriastyls</p></strong>
+        <strong><h1>Sistema de Ventas Jolleriastyls</h1></strong>
     </div>
     <div class="content container py-4">
 
         <form method="POST" action="{{ route('login') }}">
             @csrf
             @method('POST')
-            <h2 class="form-title">Inicio de Sesión</h2>
+            <h2  name="inicio de sesiòn" class="form-title">Inicio de Sesión</h2>
 
             <div class="form-group">
-                <label class="control-label">Nombre:</label>
+                <label class="control-label" for="name">Nombre:</label>
                 <div class="input-icon">
                     <input class="form-control @error('name') is-invalid @enderror" type="text"
                         placeholder="Ingrese su nombre de usuario" id="name" name="name" value="{{ old('name') }}" />
@@ -41,7 +41,7 @@
             </div>
             <br>
             <div class="form-group">
-                <label class="control-label">Contraseña:</label>
+                <label class="control-label" for="password">Contraseña:</label>
                 <div class="input-icon">
                     <input class="form-control @error('password') is-invalid @enderror" type="password"
                         placeholder="Ingrese contraseña" id="password" name="password" value="{{ old('password') }}" />
@@ -54,10 +54,8 @@
             </div>
 
             <hr />
-            <div class="form-actions">
-                <button class="btn btn-success btn-block btn-lg">
-                    Ingresar
-                </button>
+            <div class="form-actions mt-4">
+                <input  class="btn btn-success btn-block btn-lg" type="submit"value="Ingresar" />
             </div>
             <hr />
         </form>
