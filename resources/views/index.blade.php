@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//ES" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="es">
 <head>
     <meta  charset="UTF-8">
@@ -16,7 +16,7 @@
     <div class="content container py-4">
         <form method="POST" action="{{ route('login') }}">
             @csrf
-            @method('POST')
+            @method('post')
             <h2  name="inicio de sesiòn" class="form-title">Inicio de Sesión</h2>
             <div class="form-group mt-4">
                 <label class="control-label" for="name">Nombre:</label>
