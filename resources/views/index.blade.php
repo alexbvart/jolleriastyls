@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<html lang="es">
 <head>
-    <meta http-equiv="content-type" charset="text/html; UTF-8">
+    <meta  charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jolleriastyls</title>
